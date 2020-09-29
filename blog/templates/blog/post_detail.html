@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1><a href="{%%20url%20'blog:blog_list'%20%}">Welcome to our Blog</a></h1>
+
+    <h2><a href='{%%20url'>Edit This Post</a></h2>
+
+    <p>{{post}}</p>
+
+    <h3>{{post.content}}</h3>
+
+    <h3>{{post.email}}</h3>
+
+    <h3>{{post.phone}}</h3>
+
+    <h3>{{post.created_at}}</h3>
+
+    <h3>{{post.active}}</h3>
+
+    <h3>{{post.type}}</h3><img src="{{post.image.url}}" alt="">
+</body>
+</html>
